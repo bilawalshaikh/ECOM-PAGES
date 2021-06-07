@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-
-
-
+import 'ecompage1.dart';
+import 'ecompage2.dart';
+import 'ecompage3.dart';
 void main(){
 runApp(MyApp());
 }
@@ -9,16 +9,17 @@ runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: 
-      Scaffold( body: Text("Name:Bilawal '\n Email:bilawal.shaikh027@gmail.com"
-      ),
-      
-      
-),
+    
+  
+  return MaterialApp(    
+    debugShowCheckedModeBanner: false,
+  home:Scaffold(
+  
+body:  
 
-
-    );
+Home3(), 
+  )
+  );
   }
-}
-
+  }
+  
